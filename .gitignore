@@ -1,0 +1,71 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+__pycache__
+node_modules
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.csv
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Crap
+*~
+
+.idea
+.vscode
+*.code-workspace
+*.rb
+
+# Don't include env folders/files
+*.collection
+.build
+.cache
+.coverage
+.env
+.pytest_cache
+.Python
+.python-version
+.tox/
+__py
+_site/
+bin/
+build/
+dev/
+docs/_build
+include/
+lib/
+secure_settings_*.env
+settings/local.py
+settings/secure_settings.env
+tests/.compiled_swagger.yaml
+venv/
+yarn.lock
